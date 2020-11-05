@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Веб задание 2 </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="fashion2.css">
+<script type="text/javascript" >
+window.onload = function() {
+    var button = document.getElementById('input_button_bg_change');
+    var body = document.getElementsByTagName('body')[0];
+  var colors = ['yellow', 'orange', 'black', 'white', '#1d1018', '#c9a5be', '#5d3954'];
+    button.onclick = function() {
+        body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+    };
+};
+</script>
+<script src="tooltip.js"></script>
+<script src="funktion1.js"></script>
+<script src="funktion2.js"></script>
+<script src="funktion3.js"></script>
+  </head>
+
+
+<body>
+	<p><img src="uther.png" alt="Фотография" class="rightpic" align="right" onmouseover="toolTip('Выполнил студент группы ИДБ 18-02<br>Саад Али <br>')" onmouseout="toolTip()"></p>
+  <div id="floatTip"></div>
+	
+
+<h1 align="center">Утер Светоносный</h1>
+<h2 >«Первый паладин из ордена Серебряной Длани»<br><br>
+    Повёл свой орден на битву против Орды во времена Второй войны. <br>
+	Во время Третьей войны Утер был предан и убит своим любимым учеником — принцем Артасом, —  когда защищал урну с прахом отца Артаса, короля Теренаса Менетила II. <br> <br>
+    Утер был рыцарем и учеником-священником у архиепископа Алонсия Фаола в Первой войне и поклонялся Святому Свету с юности.Утер встретил архиепископа, когда тот был всего лишь епископом Фаолом, и Алонсий стал его духовным советником и наставником.<br><br> </h2>
+
+
+
+	 <input type="button" id="input_button_bg_change" value="Смена фона" >
+
+<p><font color="#7a5259" size=50% >Задание 1.1</font></p>
+
+<p><font size = 5%  color=brown>Ввод</font></p>
+
+<input type="text" id="field1">
+
+<button onClick="Function1();">Вывод</button>
+
+<input type="text" id="field2">
+
+
+	
+<p><font color="#7a5259" size=50%>Задание 1.2</font></p>
+
+<p><font size=5% color=brown>Введите два однотипных значения</font> </p>
+
+<input type="text" id="field3">
+<input type="text" id="field4">
+
+<button onClick="Function2();">Вывод суммы</button>
+
+<input type="text" id="sum12">
+
+<p><font color="#7a5259" size=50%>Задание 1.3</font></p>
+
+<p><font size=5% color=brown>Введите элелементы по одному</font></p>
+
+<input type="text" id="field5">
+
+<button onClick="CreateArrN();">Следующий элемент</button>
+<button onClick="Function3();">Вывод обрадтанного массива</button>
+
+<input type="text" id="field6">
+
+
+
+</body>
+</html>
+
+
+
+
+

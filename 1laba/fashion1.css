@@ -1,0 +1,22 @@
+body {
+background:url(fon.png) no-repeat;
+background-size:cover;
+}
+
+h1{
+
+font-style:oblique;
+font-size: 400% ;
+color: yellow;
+}
+
+h2
+{
+	font-size:200%;	
+	color: brown;
+}
+
+.z1
+{font-size:200%;
+	
+}

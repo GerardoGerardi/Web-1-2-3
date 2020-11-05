@@ -1,0 +1,28 @@
+body
+{
+	background:black;
+}
+h1 {
+font-family:serif;
+font-style:oblique;
+font-size: 400% ;
+color: brown;
+margin-left: 20px; /* Отступ слева */
+
+}
+
+h2
+{
+color:brown;
+left: 30px;
+font-family:serif;
+font-style:oblique;
+
+}
+
+#floatTip {
+    position: absolute; width: 250px; display: none; 
+    border: 1px solid #000; padding: 4px;
+    font-family: sans-serif; font-size: 9pt;
+    color: #333; background: #ffe6f1;
+   }
